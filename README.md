@@ -31,12 +31,11 @@ our research study aims to overcome this problem. The main goal is to improve me
 <p align="center">   
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*jhYv-BI-dEQe85I7B4qjcQ.png" width="700" height="350" />
     <br>
-<strong>Generator Model: </strong> To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
+</p>
+<p><strong>Generator Model: </strong> To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
 </p>
 <br>
-<p align="center">   
-  <img src="https://www.researchgate.net/publication/354462602/figure/fig3/AS:1066042898010113@1631175841283/PatchGAN-based-discriminator-network-architecture-of-our-proposed-CGAN-RGBD-method-7.ppm" width="700" height="350" />
-    <br>
+<p>   
 <strong>Discriminator Model: </strong> A patch discriminator was used to
  assess the realism of the colorized images. This discriminator
  produces multiple real/fake judgments for patches of the
