@@ -20,6 +20,7 @@ our research study aims to overcome this problem. The main goal is to improve me
 
 ## Implementation:
 •	Choosing a comprehensive dataset that focuses particularly on black-and-white medical photos linked to the identification of brain tumors. <br>
+Dataset: [**Brain Tumor Classification (MRI)**]("https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri").
 <p align="center">   
   <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png" />
 </p>
