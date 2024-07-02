@@ -23,13 +23,24 @@ our research study aims to overcome this problem. The main goal is to improve me
 <p align="center">   
   <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png" />
 </p>
+<br>
 •	Prepare the dataset by normalizing, resizing, and augmenting the images to ensure data consistency and improve model robustness. <br>
 •	Utilizing a U-net architecture as the foundation for image colorization. <br>
+•	Implement a GAN to refine the colorization results. The generator network produces colorized images, while the discriminator network evaluates the realism of the colorization. <br>
+<br>
 <p align="center">   
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*jhYv-BI-dEQe85I7B4qjcQ.png" width="700" height="350" />
+<strong>Generator Model: </strong> To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
 </p>
-### Generator Model
-To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
+<br>
+<p align="center">   
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FPatchGAN-discriminator-Each-value-of-the-output-matrix-represents-the-probability-of_fig1_323904616&psig=AOvVaw0AQsT4aaGBSIy1DEolKAQl&ust=1720007005209000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCICbz8ajiIcDFQAAAAAdAAAAABAE" width="700" height="350" />
+<strong>Discriminator Model: </strong> A patch discriminator was used to
+ assess the realism of the colorized images. This discriminator
+ produces multiple real/fake judgments for patches of the
+ image, allowing for more precise feedback during training.
 
-•	Implement a GAN to refine the colorization results. The generator network produces colorized images, while the discriminator network evaluates the realism of the colorization. <br>
+</p>
+<br>
+
 •	Training the U-net and GAN components on the prepared dataset, optimizing them to generate high-quality colorized medical images.
