@@ -46,7 +46,7 @@ our research study aims to overcome this problem. The main goal is to improve me
 
 ## Results
 <p align="center">   
-  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/colored_tumor.png" width="700" height="350" />
+  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/colored_tumor.png" width="700" height="300" />
     <br>
 </p>
 <p> The results obtained were visually impressive. The colorized
