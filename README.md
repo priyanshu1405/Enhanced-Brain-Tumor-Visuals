@@ -21,7 +21,7 @@ our research study aims to overcome this problem. The main goal is to improve me
 ## Implementation:
 •	Choosing a comprehensive dataset that focuses particularly on black-and-white medical photos linked to the identification of brain tumors. <br>
 <p align="center">   
-  <img src="[https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white](https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png)" /></a>
+  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png" /></a>
 </p>
 •	Prepare the dataset by normalizing, resizing, and augmenting the images to ensure data consistency and improve model robustness. <br>
 •	Utilizing a U-net architecture as the foundation for image colorization. <br>
