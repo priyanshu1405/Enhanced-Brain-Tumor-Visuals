@@ -21,9 +21,14 @@ our research study aims to overcome this problem. The main goal is to improve me
 ## Implementation:
 •	Choosing a comprehensive dataset that focuses particularly on black-and-white medical photos linked to the identification of brain tumors. <br>
 <p align="center">   
-  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png" /></a>
+  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/BW.png" />
 </p>
 •	Prepare the dataset by normalizing, resizing, and augmenting the images to ensure data consistency and improve model robustness. <br>
 •	Utilizing a U-net architecture as the foundation for image colorization. <br>
+<p align="center">   
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*jhYv-BI-dEQe85I7B4qjcQ.png" />
+    ###  Generator Model
+    To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
+</p>
 •	Implement a GAN to refine the colorization results. The generator network produces colorized images, while the discriminator network evaluates the realism of the colorization. <br>
 •	Training the U-net and GAN components on the prepared dataset, optimizing them to generate high-quality colorized medical images.
