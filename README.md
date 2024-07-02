@@ -34,7 +34,6 @@ our research study aims to overcome this problem. The main goal is to improve me
 </p>
 <p><strong>Generator Model: </strong> To implement our generator model, we used a U-Net architecture. The U-Net has a reputation for being efficient at translating images into other images. U-Net is a convolutional neural network architecture used for tasks like image segmentation and image-to-image translation.
 </p>
-<br>
 <p>   
 <strong>Discriminator Model: </strong> A patch discriminator was used to
  assess the realism of the colorized images. This discriminator
@@ -43,5 +42,22 @@ our research study aims to overcome this problem. The main goal is to improve me
 
 </p>
 <br>
-
 •	Training the U-net and GAN components on the prepared dataset, optimizing them to generate high-quality colorized medical images.
+
+## Results
+<p align="center">   
+  <img src="https://github.com/priyanshu1405/Enhanced-Brain-Tumor-Visuals/blob/main/colored_tumor.png" width="700" height="350" />
+    <br>
+</p>
+<p> The results obtained were visually impressive. The colorized
+ MRI images allowed for a more detailed and informative
+ representation of the brain scans, enhancing the visibility of
+ anomalies such as tumors. This colorization process signifi
+cantly improved the interpretability of the MRI scans, making
+ it easier for medical professionals to identify and assess brain
+ abnormalities.</p>
+
+ ## Author
+ Priyanshu Kumawat <br>
+ B.Tech in Data Science & AI <br>
+ IIIT Naya Raipur
